@@ -1,0 +1,707 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 9rem;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo {
+    height: 9rem;
+    width: 20rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.2px 0px 10px 0px blue;
+}
+
+.logo img {
+    height: 5rem;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: rgb(22, 30, 197);
+    height: 40%;
+    width: 65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    box-shadow: -0.2px 0px 10px 0px blue;
+
+}
+
+.disp {
+    display: inline;
+}
+
+.blue1 {
+    margin-left: 2rem;
+}
+
+.gmail {
+    margin-right: 2rem;
+}
+
+.blue2 {
+    margin-right: 1.4rem;
+}
+
+.para {
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.anchor:hover {
+    color: blue;
+}
+.white {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0.2px 0px 10px 0px blue;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin-left: 1.2rem;
+}
+
+.details a {
+    color: black;
+    text-decoration: none;
+}
+
+.phone-logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 1rem;
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: flex;
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* ----------- First Hero ---------------*/
+
+.hero {
+    height: 40rem;
+    width: 100%;
+    background-image: url("image/21.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.879);
+    margin-top: 0px;
+}
+.imgDiv{
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    /* background-color: rgba(39, 69, 145, 0.385); */
+    background:linear-gradient(transparent 75%,rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.under-img {
+    margin: 100px auto 200px auto;
+}
+
+.about {
+    display: block;
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero-home {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*-------   second-hero ---------*/
+.second-hero {
+    height: 35rem;
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.second-hero .hero-img {
+    height: 38rem;
+    width: 50%;
+}
+
+.second-hero .hero-info {
+    height: 38rem;
+    width: 50%;
+    margin-left: 1.5rem;
+}
+
+.mainframe-img {
+    height: 29rem;
+    width: 75%;
+    background-image: url("image/8.jpg");
+    /* background-repeat: no-repeat; */
+    margin-left: 4rem;
+    border-radius: 1rem;
+    background-size: cover;
+}
+
+.second-hero .coframe-img img {
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    margin-left: 20rem;
+    margin-top: 18rem;
+    border: 0.8rem solid orange;
+}
+
+.h-25p {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(3, 3, 68);
+}
+
+.text-2 {
+    width: 90%;
+    height: 23%;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(2, 2, 35, 0.792);
+    font-size: 1.3rem;
+    box-shadow: 0.004px 0.004px 15px 0.03px rgba(0, 0, 0, 0.205), -5px 0 0 0px blue;
+}
+
+.text-3 {
+    line-height: 25px;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 4, 0.512);
+}
+
+.text-4 .conta1 {
+    display: inline-block;
+    height: 3rem;
+    width: 10rem;
+    background-color: white;
+    color: white;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: relative;
+    padding-top: 17px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.text-4 .conta1 ::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transform: translateX(-50%);
+    transition: 0.5s all ease;
+}
+
+.text-4 .conta1 :hover::before {
+    transform: translateX(-100%);
+
+}
+
+.text-4 .conta1 ::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13, 0, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    transform: translateX(50%);
+    transition: 0.5s all ease;
+}
+
+.text-4 .conta1 :hover::after {
+    transform: translateX(100%);
+
+}
+
+.text-4 .conta1 :hover {
+    color: rgb(13, 39, 8);
+}
+
+
+
+.text-4 .conta2 {
+    display: inline-block;
+    height: 3.5rem;
+    width: 10rem;
+    margin-left: 3rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.294);
+}
+
+.text-4 .get {
+    color: rgba(0, 0, 4, 0.512);
+    padding-bottom: 3px;
+    font-size: 1.1rem;
+    padding-left: 20px;
+}
+
+.text-4 .num {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-left: 20px;
+}
+
+.third-hero img {
+    margin-top: 10rem;
+    height: 20rem;
+    width: 100%;
+}
+
+.third-hero {
+    height: 20rem;
+    width: 100%;
+    margin-top: 4rem;
+    background-color: rgba(0, 0, 255, 0.566);
+}
+
+.stats-img {
+    height: 20rem;
+    width: 100%;
+    background-image: url("image/29.png");
+    background-size: cover;
+    display: flex;
+}
+
+.stats {
+    height: 5.5rem;
+    width: 100%;
+    margin-top: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stats-1,
+.stats-2,
+.stats-3 {
+    height: 5.49rem;
+    width: 7rem;
+    display: inline-block;
+}
+
+.stats-1 span,
+.stats-2 span,
+.stats-3 span {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.stats-1 p,
+.stats-2 p,
+.stats-3 p {
+    width: 14rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: yantramanav, sans-serif;
+}
+
+sup {
+    color: orange;
+}
+
+.forth-hero {
+    height: 44rem;
+    width: 100%;
+    background-color: #eee;
+}
+
+.bubble-img {
+    background-image: url("image/bubble.png");
+    background-size: cover;
+    height: 14.6rem;
+    width: 14rem;
+}
+
+.bubble-div {
+    height: 14.6rem;
+    width: 14rem;
+    background-color: #eee;
+    display: inline;
+}
+
+.forth-hero-1 {
+    height: 17rem;
+    width: 100%;
+    display: flex;
+}
+
+.working {
+    height: 14.6rem;
+    width: 14.6rem;
+    margin-top: 8rem;
+    margin-left: 18rem;
+    line-height: 3rem;
+}
+
+.working .working-1 {
+    color: #1515b3;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.working .working-2 {
+    color: #030331;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.forth-hero-2 {
+    height: 27rem;
+    width: 100%;
+}
+
+.fly-img {
+    height: 200px;
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    background-image: url("image/swipe.png");
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-1 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-image: url("image/tub.jpg");
+    background-size: cover;
+    position: relative;
+    bottom: 3rem;
+    left: 6rem;
+    transition: transform 0.5s ease
+}
+
+.image-2 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-image: url("image/cleaningg.jpg");
+    background-size: cover;
+    transition: 0.7s ease;
+}
+
+.image-3 {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    position: relative;
+    right: 6rem;
+    background-image: url("image/room-cleaning.jpg");
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+
+.image-1:hover,
+.image-2:hover,
+.image-3:hover {
+    transform: scale(1.3);
+}
+
+.fly-img p {
+    height: 3rem;
+    width: 14rem;
+    color: rgb(2, 2, 51);
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    margin-top: 10.6rem;
+    font-weight: 200;
+}
+
+footer {
+    height: 40rem;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.footer1 {
+    height: 80%;
+    width: 100%;
+    background-color: #0a0acfe0;
+    display: flex;
+}
+
+.foot_1 {
+    width: 30%;
+}
+
+#foot-1 {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img img {
+    height: 60px;
+    width: 170px;
+    margin-left: -100px;
+    cursor: not-allowed;
+
+}
+
+#foot-1 .star img {
+    /* height: 50px; */
+    width: 50px;
+    padding-bottom: 50px;
+    animation: blink 3s ease-in-out 0s infinite;
+    cursor: move;
+   border: 1p solid red;
+}
+
+@keyframes blink {
+    0% {
+        transfrom: scale(1);
+    }
+
+    50% {
+        transform: scale(3);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+}
+
+#foot-2 {
+    padding-left: 84px;
+    padding-right: 15px;
+    line-height: 30px; 
+    font-size: large;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+#foot-3 input {
+    height: 44px;
+    width: 260px;
+    border-radius: 5px;
+    margin-left: 84px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.foot_2 {
+    width: 20%;
+
+}
+
+.foot_3 {
+    width: 20%;
+}
+
+.footer2 {
+    height: 20%;
+    width: 100%;
+    background-color: #1c1c9e;
+}
+
+.foot_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.foot_container h2 {
+    color: white;
+    margin-left: 70px;
+    font-family: sans-serif;
+}
+
+.foot_container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.foot_container a {
+    color: rgba(255, 255, 255, 0.651);
+    padding-top: 17px;
+    text-decoration: none;
+    margin-left: 70px;
+    transition: 0.5s ease;
+}
+
+.foot_container a:hover {
+    transform: translateX(10px);
+}
+
+.foot_4 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot_4 h2 {
+    margin: 65px auto 50px 40px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.foot_4_1 {
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.656);
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.foot_4_a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.clock_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.clock_container i {
+    padding-right: 20px;
+    font-size: x-large;
+    color: white;
+}
+
+.clock_container h4 {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.foot_4_a p {
+    color: rgba(255, 255, 255, 0.651);
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+/*         */
+.foot_4_b {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.phone_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.phone_container i {
+    padding-right: 20px;
+    font-size: x-large;
+    color: white;
+}
+
+.phone_container h4 {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.foot_4_b p {
+    color: rgba(255, 255, 255, 0.651);
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_a {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.615);
+}
+
+.foot_a span {
+    color: white;
+}
+
+.foot_b {
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+    color: white;
+}
+
+.foot_b p {
+    font-family: sans-serif;
+}
+
+.foot_b i {
+    font-size: 4px;
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.645);
+}
